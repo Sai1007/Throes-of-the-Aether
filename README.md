@@ -14,6 +14,7 @@ Two players connect through a local-network lobby, customize a character, and ba
 - **Graphics requirements:** custom vertex geometry, model-view transforms, movable camera and projection, input, requestAnimationFrame animation, lighting/shading.
 - **Advanced features planned:** hierarchical modeling and object picking.
 
+<!-- 
 ## Repository layout
 ```text
 assets/             Approved artwork, element symbols, sketches
@@ -23,6 +24,7 @@ shared/             Shared game rules and message definitions (add when needed)
 tests/              Manual/automated tests
 docs/               Proposal, storyboard, AI use log, team agreement
 ```
+-->
 
 ## Team workflow
 All team members may contribute to all areas. Task ownership and meeting schedule will be decided collaboratively and documented in `docs/TEAM_AGREEMENT.md`.
@@ -31,6 +33,8 @@ Suggested workflow: create an issue for each feature, work on branches, review p
 
 ## Getting started
 The repository is a scaffold. Running instructions will be added when the first working client and server are committed.
+
+Currently the only running file is under `src/battlefield/index.html`. Doing so will run the current progress of the game. This repo along with this README is subject to change.
 
 ## Documentation
 - [AI Use Log](docs/AI_USE_LOG.md)
